@@ -28,7 +28,7 @@ try {
     $pdo = new PDO(
         'mysql:host=localhost;dbname=mid40;charset=utf8mb4',
         'root',
-        'root',
+        'Derekwind0406@',
         array(
             PDO::ATTR_EMULATE_PREPARES => false,
             PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
