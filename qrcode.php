@@ -69,19 +69,18 @@ try {
                
             } else {
                 echo( "<table border='1' >" );
-                echo( "<tr><th>bloodID</th><th>sys</th><th>dia</th><th>upload time</th><th>mood</th></tr>" );
+                echo( "<tr><th>sys</th><th>dia</th><th>upload time</th><th>mood</th></tr>" );
                 while( $index < $how_many) {
-                    $each_row = $result [ $index ];
-
-                    $bloodID = $each_row["bloodID"];
+                    $each_row = $result[$index];
+                
                     $sys = $each_row["sys"];
                     $dia = $each_row["dia"];
                     $date = $each_row["date"];
                     $mood = $each_row["mood"];
-                    echo( "<tr><td>$bloodID</td><td>$sys</td><td>$dia</td><td>$date</td><td>$mood</td></tr>" );
-                    //echo( $bloodID." ".$sys." ".$dia." ".$date." ".$mood." "."<hr />" );
+                    echo( "<tr><td>$sys</td><td>$dia</td><td>$date</td><td>$mood</td></tr>" );
                     $index += 1;
                 }
+                
                 echo( "</table  >" );
             }
 
