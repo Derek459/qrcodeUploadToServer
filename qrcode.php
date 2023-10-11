@@ -68,6 +68,7 @@ try {
                 echo( "no blood data<hr />" );
                
             } else {
+                echo( "<h2>BloodAndMind</h2>" );  // 这里添加了一个标题
                 echo( "<table border='1' >" );
                 echo( "<tr><th>收縮壓</th><th>舒張壓</th><th>上傳時間</th><th>心情</th></tr>" );
 
