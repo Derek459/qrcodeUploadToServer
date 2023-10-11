@@ -69,7 +69,7 @@ try {
                
             } else {
                 echo( "<table border='1' >" );
-                echo( "<tr><th>收缩壓</th><th>舒张壓</th><th>上傳時間</th><th>心情</th></tr>" );
+                echo( "<tr><th>收縮壓</th><th>舒張壓</th><th>上傳時間</th><th>心情</th></tr>" );
 
                 while( $index < $how_many) {
                     $each_row = $result[$index];
