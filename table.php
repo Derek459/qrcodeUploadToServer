@@ -64,7 +64,7 @@ try {
 
 			$pdoStmt->execute();
 			$id = $pdo->lastInsertId();
-
+//
 			$payload["update_count"] = $pdoStmt->rowCount();
 			$payload["id"] = $id;
 			$payload["sql"] = $sql;
