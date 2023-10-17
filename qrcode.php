@@ -66,7 +66,7 @@ try {
             $index = 0;
             if ($how_many == 0 ) {
                 echo( "no blood data<hr />" );
-               
+               //
             } else {
                 echo( "<h2>BloodAndMind</h2>" );  // 这里添加了一个标题
                 echo( "<table border='1' >" );
